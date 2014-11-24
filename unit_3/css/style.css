@@ -1,0 +1,47 @@
+body{
+	background:url("../images/stripes.png") repeat-x, 
+	url("../images/bg.jpg")no-repeat;
+ 	background-size: auto, cover;	
+	background-color: #52596a;
+
+	
+}
+section{
+	margin:350px 0 0 170px;
+}
+
+hr {
+	border: 0;
+	background-color: red;
+	margin: 25px 0 25px 0;
+	width: 40px;
+	height: 2px;
+
+}
+
+
+h1 {
+	font: helvetica; 
+	font-family: sans-serif;
+	color: white
+}
+p {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 20px;
+	color: white
+}
+
+div{
+	background: url(../images/stripes.png)repeat-x;
+	height: 13px;
+	width: 100%;
+	position: absolute;
+	top: 0; left: 0;
+}
+
+
+
+
+
+
+
