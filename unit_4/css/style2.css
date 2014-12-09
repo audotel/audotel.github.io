@@ -47,6 +47,7 @@ header img {
     padding: 40px
 }
 nav ul {
+    border-bottom:2px solid #fff;
     list-style-type: none;
     overflow: hidden;
     /*padding: 15px 0 15px 0;*/
@@ -71,4 +72,4 @@ nav a {
     padding:5px;  
 }
 
-nav a:hover {color: #0cf6ac;}
+nav a:hover {color: orange;}
