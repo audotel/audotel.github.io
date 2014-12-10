@@ -59,6 +59,7 @@ nav li {
     border-left:2px solid #fff;
     height:50px;
     padding-top:10;
+    text-transform:uppercase;
 }
 nav li:last-child {
     border-right:2px solid #fff;
