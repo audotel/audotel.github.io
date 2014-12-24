@@ -69,6 +69,7 @@ nav a:hover {color: #53efdf;}
 	width:100%;
 }
 #comment.fixed {
+	background:#fff;
 	position: fixed;
 	top: 0;
 	visibility:visible;
