@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<link rel='stylesheet' type="text/css" href="style.css">
     	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
 	<title>Andrew McArdle / Art Director</title>
@@ -11,7 +12,7 @@
 	<div class="andrewmakesfizzybeerthatstainsourshittycarpet">
 		<img src="images/png/header_graphic.png" alt="header">
 	</div>
-	<nav>
+	<nav role="navigation" id="comment">
 		<ul>
 			<li><a href="portfolio.html">portfolio</a></li>
 			<li><a href="about.html">about</a></li>
@@ -38,7 +39,24 @@
 	
 
 </footer>
-
+<script>
+$(document).ready(function () {  
+  var top = $('#comment').offset().top - parseFloat($('#comment').css('marginTop').replace(/auto/, 0));
+  $(window).scroll(function (event) {
+    // what the y position of the scroll is
+    var y = $(this).scrollTop();
+  
+    // whether that's below the form
+    if (y >= top) {
+      // if so, ad the fixed class
+      $('#comment').addClass('fixed');
+    } else {
+      // otherwise remove it
+      $('#comment').removeClass('fixed');
+    }
+  });
+});
+</script>
 
 
 </body>
