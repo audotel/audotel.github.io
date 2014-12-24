@@ -1,12 +1,12 @@
 * { margin:0; padding:0; box-sizing:border-box; }
-
-header{
- 
+body {
     color: purple;
     font-family: 'oswald', sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+}
+header{
     background-size: cover;
 }
 
@@ -17,21 +17,11 @@ div.andrewmakesfizzybeerthatstainsourshittycarpet img {
 }
 div.andrewmakesfizzybeerthatstainsourshittycarpet:hover{
     background: url(images/png/header_hover.png) no-repeat center center fixed;
-    color: purple;
-    font-family: 'oswald', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
     background-size: cover;
 
 }
 div.andrewmakesfizzybeerthatstainsourshittycarpet{
     background: url(images/png/header.png) no-repeat center center fixed;
-    color: purple;
-    font-family: 'oswald', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    text-align: center;
     background-size: cover;
 
 }
@@ -72,14 +62,19 @@ div.portfolio{
 }
 
 
-div.cervelo{
+a.cervelo{
+    display:block;
     float: left;
-    background: url(images/png/cervelo_thumb.png) no-repeat center ;
+    background:rgba(0,133,252,.8);
     width: 47%;
     padding: 0 0 0 0;
     height:300px;
     border: 5px solid gray;
     margin: 10px; 
+}
+a.cervelo:hover {
+    background:rgba(0,133,252,1);
+    transition-duration:.5s;
 }
 
 div.modelo_cinco{
