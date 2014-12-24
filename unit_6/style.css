@@ -1,0 +1,130 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+header{
+ 
+    color: purple;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    background-size: cover;
+}
+
+div.andrewmakesfizzybeerthatstainsourshittycarpet img {
+    text-align: center;
+    width: 40%;
+    padding: 30px 0px 30px 0px;
+}
+div.andrewmakesfizzybeerthatstainsourshittycarpet:hover{
+    background: url(images/png/header_hover.png) no-repeat center center fixed;
+    color: purple;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    background-size: cover;
+
+}
+div.andrewmakesfizzybeerthatstainsourshittycarpet{
+    background: url(images/png/header.png) no-repeat center center fixed;
+    color: purple;
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    background-size: cover;
+
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    padding: 0 0 0 0;
+
+}
+
+nav li {
+    margin: 0;
+    display: inline-block;
+   
+    height:50px;
+    padding-top:10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom:10px;
+    text-transform:uppercase;
+}
+nav li:last-child {
+}
+
+nav a {
+    color: #a0a0a0;
+    text-decoration: none;
+    font-size: 1.62em;
+    padding:5px;  
+}
+
+nav a:hover {color: #53efdf;}
+
+div.portfolio{
+    width: 100%;
+    padding-bottom: 100px ;
+}
+
+
+div.cervelo{
+    float: left;
+    background: url(images/png/cervelo_thumb.png) no-repeat center ;
+    width: 47%;
+    padding: 0 0 0 0;
+    height:300px;
+    border: 5px solid gray;
+    margin: 10px; 
+}
+
+div.modelo_cinco{
+    float: left;
+    background: url(images/png/modelo_cinco_thumb.png) no-repeat center ;
+    width: 47%;
+    padding: 0 0 0 0;
+    height:300px;
+    border: 5px solid gray;
+    margin: 10px; 
+}
+
+div.pac_summer{
+    float: left;
+    background: url(images/png/pac_thumb.png) no-repeat center ;
+    width: 47%;
+    padding: 0 0 0 0;
+    height:300px;
+    border: 5px solid gray;
+    margin: 10px; 
+}
+
+div.vic_holiday{
+    float: left;
+    background: url(images/png/vic_thumb.png) no-repeat center ;
+    width: 47%;
+    padding: 0 0 0 0;
+    height:300px;
+    border: 5px solid gray;
+    margin: 10px; 
+}
+
+
+hr {
+  background: #ddd; 
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 3px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 25p;
+  border: none; 
+}
+
+
+
+
