@@ -56,7 +56,19 @@ nav a {
 }
 
 nav a:hover {color: #53efdf;}
+#comment {
+	margin:0;
+	position: absolute;
+	top:0;
+	width:100%;
+}
 
+#comment.fixed {
+	position: fixed;
+	top: 0;
+	visibility:visible;
+	width:100%;
+}
 #portfolio{
     width: 100%;
     padding-bottom: 100px ;
