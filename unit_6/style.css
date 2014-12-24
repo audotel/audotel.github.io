@@ -81,6 +81,12 @@ nav a:hover {color: #53efdf;}
 	visibility:visible;
 	width:100%;
 }
+#comment img {
+	visibility:hidden;
+}
+#comment.fixed img {
+	visibility:visible;
+}
 #portfolio{
     width: 100%;
     padding-bottom: 100px ;
