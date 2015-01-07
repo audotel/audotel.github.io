@@ -17,7 +17,7 @@ div.andrewmakesfizzybeerthatstainsourshittycarpet img {
 	transform: translateY(-50%);
 	margin:0 auto;
 	text-align: center;
-	width: 40%;
+	width: 580px;
 	padding: 30px 0px 30px 0px;
 }
 div.andrewmakesfizzybeerthatstainsourshittycarpet:hover{
@@ -84,6 +84,10 @@ nav a:hover {color: #53efdf;}
 	width:100%;
 }
 #comment img {
+    position: fixed;
+    width: 40px;
+    top: 0;
+    left: 10%;
     text-align: center;
     float:left;
 	visibility:hidden;
@@ -101,6 +105,7 @@ nav a:hover {color: #53efdf;}
 
 a.cervelo{
     background: url(images/png/cervelo_thumb.png) no-repeat center;
+    background-size: cover;
     display:block;
     float: left;
     width: 50%;
@@ -111,11 +116,13 @@ a.cervelo{
 }
 a.cervelo:hover {
     background: url(images/png/cervelo_thumb2.png) no-repeat center;
+    background-size: cover;
     transition-duration:.5s;
 }
 
 a.think{
     background: url(images/png/think_thumb.png) no-repeat center;
+    background-size: cover;
     display:block;
     float: left;
     width: 50%;
@@ -126,11 +133,13 @@ a.think{
 }
 a.think:hover {
     background: url(images/png/think_thumb2.png) no-repeat center;
+    background-size: cover;
     transition-duration:.5s;
 }
 
 a.pac_usos{
     background: url(images/png/pac_usos_thumb.png) no-repeat center;
+    background-size: cover;
     display:block;
     float: left;
     width: 50%;
@@ -141,11 +150,13 @@ a.pac_usos{
 }
 a.pac_usos:hover {
     background: url(images/png/pac_usos_thumb2.png) no-repeat center;
+    background-size: cover;
     transition-duration:.5s;
 }
 
 a.wedding{
     background: url(images/png/wedding_thumb.png) no-repeat center;
+    background-size: cover;
     display:block;
     float: left;
     width: 50%;
@@ -156,6 +167,7 @@ a.wedding{
 }
 a.wedding:hover {
     background: url(images/png/wedding_thumb2.png) no-repeat center;
+    background-size: cover;
     transition-duration:.5s;
 }
 
