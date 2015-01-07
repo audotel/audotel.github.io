@@ -28,7 +28,7 @@ div.andrewmakesfizzybeerthatstainsourshittycarpet:hover{
 div.andrewmakesfizzybeerthatstainsourshittycarpet{
     background: url(images/png/header.png) no-repeat center center fixed;
     background-size: cover;
-    height:95vh;
+    height:92vh;
 
 }
 
@@ -43,15 +43,16 @@ nav li {
     margin: 0;
     display: inline-block;
    
-    height:50px;
-    padding-top:10px;
+    height:40px;
+    padding-top:0px;
     padding-right: 25px;
     padding-left: 25px;
-    padding-bottom:10px;
+    padding-bottom:0px;
     text-transform:uppercase;
 }
 nav li:last-child {
 }
+
 
 nav a {
     color: #a0a0a0;
@@ -73,6 +74,7 @@ nav a:hover {color: #53efdf;}
 	position: absolute;
 	top:0;
 	width:100%;
+
 }
 #comment.fixed {
 	background:#fff;
@@ -82,6 +84,8 @@ nav a:hover {color: #53efdf;}
 	width:100%;
 }
 #comment img {
+    text-align: center;
+    float:left;
 	visibility:hidden;
 }
 #comment.fixed img {
@@ -89,33 +93,81 @@ nav a:hover {color: #53efdf;}
 }
 #portfolio{
     width: 100%;
+    height: 1000px;
     padding-bottom: 100px ;
     margin:50px 0 0;
 }
 
 
 a.cervelo{
+    background: url(images/png/cervelo_thumb.png) no-repeat center;
     display:block;
     float: left;
-    background:rgba(0,133,252,.8);
-    width: 47%;
+    width: 50%;
     padding: 0 0 0 0;
     height:300px;
-    border: 5px solid gray;
-    margin: 10px; 
+    border: 0px solid gray;
+    margin: 0px; 
 }
 a.cervelo:hover {
-    background:rgba(0,133,252,1);
+    background: url(images/png/cervelo_thumb2.png) no-repeat center;
     transition-duration:.5s;
 }
-#portfolio div {
+
+a.think{
+    background: url(images/png/think_thumb.png) no-repeat center;
+    display:block;
     float: left;
-    width: 47%;
+    width: 50%;
     padding: 0 0 0 0;
     height:300px;
-    border: 5px solid gray;
-    margin: 10px; 
+    border: 0px solid gray;
+    margin: 0px; 
 }
+a.think:hover {
+    background: url(images/png/think_thumb2.png) no-repeat center;
+    transition-duration:.5s;
+}
+
+a.pac_usos{
+    background: url(images/png/pac_usos_thumb.png) no-repeat center;
+    display:block;
+    float: left;
+    width: 50%;
+    padding: 0 0 0 0;
+    height:300px;
+    border: 0px solid gray;
+    margin: 0px; 
+}
+a.pac_usos:hover {
+    background: url(images/png/pac_usos_thumb2.png) no-repeat center;
+    transition-duration:.5s;
+}
+
+a.wedding{
+    background: url(images/png/wedding_thumb.png) no-repeat center;
+    display:block;
+    float: left;
+    width: 50%;
+    padding: 0 0 0 0;
+    height:300px;
+    border: 0px solid gray;
+    margin: 0px; 
+}
+a.wedding:hover {
+    background: url(images/png/wedding_thumb2.png) no-repeat center;
+    transition-duration:.5s;
+}
+
+#portfolio div {
+    float: left;
+    width: 50%;
+    padding: 0 0 0 0;
+    height:800px;
+    border: 5px solid gray;
+    margin: 0px; 
+}
+
 div.modelo_cinco{
     background: url(images/png/modelo_cinco_thumb.png) no-repeat center;
 }
